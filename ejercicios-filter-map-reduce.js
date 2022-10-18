@@ -1,4 +1,4 @@
-/*const superHeroes = [ 
+	const superHeroes = [ 
 	{nombre:'Batman', tipo:'DC'},
 	{nombre:'Linterna Verde', tipo:'DC'},
 	{nombre:'Lobezno', tipo:'Marvel'},
@@ -27,27 +27,3 @@
 		'{"nombre":"Lobezno", "tipo":"Marvel"}',
 		'{"nombre":"Spiderman", "tipo":"Marvel"}',
 		];
-
-
-function cortas (str){
-	array = str.split(' ');
-	let palabra = array[0].length;
-	for (let i = 0; i < array.length; i++) {
-		if(array[i].length<palabra){
-			palabra = array[i].length;
-		}
-	}
-	return palabra;
-	
-}
-
-console.log(cortas("bitcoin take over the world maybe who knows perhaps"));
-	*/
-
-function likes (names){
-	let array = [];
-	array.push[names.split(',')];
-	return array;
-}
-
-console.log("Jacob,Alex,Mark");
